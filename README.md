@@ -1,4 +1,4 @@
-# Ulta Virtual Assistant (Virtual Sales Rep.)
+# Ulta Virtual Assistant (Chataus)
 
 This is an interactive feature implementation for Ulta.com in the form of an Assistant button for the website/app.
 
