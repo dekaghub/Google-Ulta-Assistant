@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+{% extends 'template.html' %}
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*
+                   
+    body{
+  width: 100%;
+  height:100%;
+  position:relative;
+  overflow:hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    black url('https://images.unsplash.com/photo-1439723680580-bfd9d28ef9b6?crop=entropy&fit=crop&fm=jpg&h=950&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925') 50% 50% no-repeat;
+   //background:
+     linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+     rgba(220, 220, 220, 1) url('https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?crop=entropy&fit=crop&fm=jpg&h=950&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925') 50% 50% no-repeat;
+  //background-blend-mode: exclusion;
+  background-blend-mode: luminosity;
+ 
+ 
+}
+.container{
+
+
+
+  height:100%;
+ position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn {
+    margin-top: calc(50% + 25px);
+    position: absolute;
+    display: inline-block;
+    width: 277px;
+    left: -150px;
+    bottom: -125px;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    font-size:17px;
+    letter-spacing: 0.045em;
+}
+
+.btn svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn svg rect {
+    //stroke: #EC0033;
+    stroke-width: 4;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.btn span{
+  background: rgb(255,130,130);
+  background: -moz-linear-gradient(left,  white 0%, #bbc4dd 100%);
+  background: -webkit-linear-gradient(left, purple 0%,gray 100%);
+  background: linear-gradient(to right,  darkgray 0%,gray,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='#770CF5',GradientType=1 );
+ 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
+    body {
+  background-color:#202125 ;
+}
+    .menu:hover{
+    transform:scale(1.5)
+    }
+    {
+  box-sizing: border-box;
+    }
+    text{
+        font-family: 'Open Sans', sans-serif;
+    }
+       
+    html {
+  --text-color-normal: #0a244d;
+  --text-color-light: #8cabd9;
+}
+
+html[data-theme='dark'] {
+  --text-color-normal: hsl(210, 10%, 62%);
+  --text-color-light: hsl(210, 15%, 35%);
+  --text-color-richer: hsl(210, 50%, 72%);
+  --text-color-highlight: hsl(25, 70%, 45%);
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+    color: transparent;
+   
+}
+.menu a {
+  background-color:transparent;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:white;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+    .corners{
+       
+border-radius: 3px;
+    }
+    /* Style buttons */
+.btn {
+  background-color: ; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+    float:right;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: ghostwhite;
+    opacity: .3;
+}
+    .link:hover{
+        transform: scale(1.5);
+        font-size: 14px;
+       
+    }
+</style>
+   
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+{% block body %}
+<body style="font-family: 'Open Sans', sans-serif;color:#aaaaaa;"style="border-radius: 2px;">
+
+<div style="background-color:transparent;padding:0px;text-align:center;color:floralwhite">
+  <h1>Chat Us</h1>
+</div>
+
+<div style="overflow:hidden">
+  <div class="menu">
+    <a href="#https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiT46G7hbzlAhUMnLMKHawHAEIYABAAGgJxbg&ohost=www.google.com&cid=CAASE-RoshsiqJ67lTar3JYdtTKcXWo&sig=AOD64_1yjgkp1z_YEAtTKaOjO1Oqc0WyCg&q=&ved=2ahUKEwimuZi7hbzlAhULPa0KHVAWBQwQ0Qx6BAgXEAE&adurl=" style="border-radius: height:auto;2px;color:lightgray;padding: 0px;">Ulta Beauty</a>
+     
+  </div>
+
+  <div class="main style="border-radius: 2px;"">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+         <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <h2>Which Alta Products Do You Want?</h2>
+    <p>Assistant: "How Are You Today?"</p>
+  </div>
+
+
+
+     
+
+
+
+   
+   
+<div style="background-color:transparent;height=text-align:centerwidth:auto;padding:10px;margin-top:7px;"></div>
+
+    <div class="container">
+  <!--<img src="micicon.jpg" style="width:50px; vertical-align: middle;text-align: center;height:50px;"> -->
+        <link href='https://fonts.googleapis.com/css?family=Lato|Roboto:400,900' rel='stylesheet' type='text/css'>
+
+
+  <button class="btn" style="padding:10px;border:5px;"></button>
+</div>
+
+    <script>
+   
+    $("#fs").change(function() {
+    //alert($(this).val());
+    $('.changeMe').css("font-family", $(this).val());
+    </script>
+
+   
+    <div class="container">
+  <a href="" class="btn">
+  <svg width="277" height="62">
+    <defs>
+        <linearGradient id="grad1">
+            <stop offset="0%" stop-color="#white"/>
+            <stop offset="100%" stop-color="#E178ED" />
+        </linearGradient>
+    </defs>
+     <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+  </svg>
+  <!--<span>Voir mes réalisations</span>-->
+    <span>Ulta Assistant</span>
+</a>
+</div>
+   
+</body>
+</html>
+{% endblock %}
