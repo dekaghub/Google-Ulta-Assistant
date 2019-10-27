@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ulta-bot",
+  "private_key_id": "2e5cb77d696bebc5448c9f2be7aa4b885c50a22e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC1jSQQ7C5NkGC/\n7Ii78irkuGOIQACxj4cjiMzq+LGVzbzCsbg67z/cVvXVXAAi0la1PfVo7h7mf3NN\n+KGWaVbliHpg0W7WXV7diByPUYmOk5sSx3CNkIjc4Oeoli1n6Qf2XemqWU+eui8N\nUEvhCJ7wcsizqrR1UdX1hCe0PLnrvQezB8TXWJi4QgetVUDyyqRX0ipf8jVnOURG\nNc5dlvLKBI7kghTlZaBdwGT0Wt0/wrbeAugTQnBIE9TfYjeTkn+S68xVsnEcmYep\nXprHFR+Uoe9FKpHVss7k8KxKldOT6ckZ5L0h/1xX9bknhOFsWeSc3cI2dqoO1UXf\n4TW2RxGRAgMBAAECggEAATOZLPNDWFra6CKJjPcWO1Zwkqoq6JuIcn3RLoJdVi9q\n+KQzJyaABwY4R4vso3kGycQ1Hl3F8vb3sQ09g2eauOZcHECtylJTQoOINXT7nfSP\nLwHKyaG7ftJF749cBPSLZSeMz+zRnI6DJSh4dp/4Y8mnF1jaK6Yax+HF7+5MMPEm\n0CybfXbq351TTvzcIIP1LsdmXgN1onsYi2XLV/R4XKCYShx/ij6mC/Ag9cDj/rnk\n/9kbBGlnmiI+7R8Ubf2T20jeCzoO3Qnw9CwxJKrkLqAvVu2QYD8bKRAqMDP73mRv\n9TwUjMOoAX5Be4JgcCW8AOl2pRTXGMu34ZJ2ZMUXWQKBgQD1SO0/GP+157R3ofPx\nhUiyXJcFlAPXlDqmLn3XuDUDICnpW9aokA5qYeFf1+mC199jdsmma1iWcqpe+xni\nt3tp29jrySbeeNoDWPwJqv9LWIWkMzE1e0B7cefyL2TnuFVroEGKo27hmhDrHoZg\nuVMEl+smNh2Gq0d63tFZl0Y12QKBgQC9e3fj/hh4p+DLLlMaHde+XYMDqHfWiIu3\ntPF116BNTWInjx669/sHlNMdFZEDmGKUj+u82ko8ALILvxr6V+1oW4C3+a3sj3i3\nHkYFSt5nPy8vkEcPWpSD0NfqXsRq3vHyu2Ehy2lSW1THF1sCpmcYD+zqKxQe6BeP\n9YChY/vOeQKBgAQmkMUxkhos6pPfrLYYkEtcX73bbFk4i+mF/eEpn9QGtk7Zm/9M\nOMI6F8s8Zxostv4C45SqWlxpYlKrIxwACNmYu8n5pGu9VcsatWEggKNwwwotR5bl\nGAk+uzMQ9D8rkl543sMO0vCEX+bqpFF8sVfxjiweXE+MFHCS1q4SbkC5AoGASMB+\nUOi/5pu2oOyhdbadnnbzFdV6ZcG5u4ha6X8oCmY62KuIBguus8N9p34fVr0MpLP5\ntGIv/Ifb1MzEg/h8rAPuETVphRm1JMIX6nJLoGLPMDj6P7fsrAvkyxUl307IoQU3\nDy21u6xbibG6/PJ9ROzgbyypJhDA80I06EKmbSkCgYABMtzbW4STJUnob5hxpP+R\n8GXjlgbr5J3ujBu1tlz5f2C3PFMYx7u4zELmlSde/fYkdx8TqjTKtiCc52xofiux\ns4YoK8xtebnc1XNCtg5MLktUg13szA9FjYegUmKPW05zOB85Vndg9NjJI6d8uZFx\nHjIbbjV1Z8ZaOIm7ylcpBQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-integrations@ulta-bot.iam.gserviceaccount.com",
+  "client_id": "104143265062361755206",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-integrations%40ulta-bot.iam.gserviceaccount.com"
+}
